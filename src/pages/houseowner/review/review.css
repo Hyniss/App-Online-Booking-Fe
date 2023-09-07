@@ -1,0 +1,37 @@
+.product-review-list {
+  margin-top: 20px;
+}
+
+.product-review-list h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-review-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-review-list li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-review-list h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.product-review-list p {
+  margin: 0;
+}
+
+.product-review-list p.rating {
+  font-weight: bold;
+}
+
+.product-review-list p.customer {
+  font-style: italic;
+  color: #666;
+}

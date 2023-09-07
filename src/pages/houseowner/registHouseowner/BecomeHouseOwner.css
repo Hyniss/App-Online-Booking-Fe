@@ -1,0 +1,72 @@
+.contract-content,
+.constract-confirm,
+.contact-submit{
+    max-width: 60%;
+    margin: 20px auto;
+}
+
+.constract-confirm{
+    display: flex;
+    gap: 10px;
+}
+
+.contact-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contract-content h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contract-content h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    .contract-content h3{
+        font-size: 18px;
+    }
+    
+    .contract-content h4{
+        font-size: 16px;
+    }
+    .contract-content p{
+        font-size: 14px;
+        line-height: 1.4rem;
+    }
+    .contract-content,
+    .constract-confirm,
+    .contact-submit{
+        max-width: 80%;
+        margin: 20px auto;
+    }
+}
+
+.date{
+    display: flex;
+    align-items: flex-end;
+}
+
+.checkbox{
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+}
+
+.error_message{
+    color: #d32f2f;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    text-align: left;
+    margin-top: 3px;
+    margin-right: 14px;
+    margin-bottom: 0;
+    margin-left: 14px;
+}
